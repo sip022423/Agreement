@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agreement of Understanding and Communication</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="paper" id="agreementPage">
+    <h1>Agreement of Understanding and Communication</h1>
+
+    <p>
+      This Agreement of Understanding is made and entered into on this <u>29th</u> day of <u>October</u>, 2025,
+      by and between:
+    </p>
+    <p>
+      <strong>Joseph James S. Alcedo</strong>, hereinafter referred to as “the Gentleman”, and
+      <strong>Dane Morrey</strong>, hereinafter referred to as “the Lady”.
+    </p>
+
+    <h2>Purpose</h2>
+    <p>
+      The purpose of this Agreement is to establish a mutual understanding between both parties in order
+      to maintain open, honest, and respectful communication throughout the course of their growing
+      relationship.
+    </p>
+
+    <h2>Terms and Conditions</h2>
+    <p><strong>Honesty and Openness</strong><br>
+      Both the Gentleman and the Lady agree that if there is any concern, misunderstanding, doubt, or
+      emotional burden on either side, it shall be expressed and discussed openly and respectfully
+      without hesitation or delay.
+    </p>
+    <p><strong>Mutual Respect</strong><br>
+      Both parties agree to listen to each other with understanding, empathy, and without unnecessary
+      judgment or anger.
+    </p>
+    <p><strong>Resolution of Issues</strong><br>
+      Should a problem arise, both parties agree to address and resolve it through calm discussion,
+      rather than silence, avoidance, or assumption.
+    </p>
+    <p><strong>Commitment to Communication</strong><br>
+      Both parties understand that healthy communication is essential in building trust and shall make
+      every effort to speak truthfully and kindly at all times.
+    </p>
+
+    <h2>Mutual Intention</h2>
+    <p>
+      This Agreement represents a shared desire to nurture a connection built on sincerity, patience,
+      and mutual respect.
+    </p>
+
+    <h2>Acknowledgment</h2>
+    <p>
+      By signing this Agreement, both parties acknowledge that they have read, understood, and voluntarily
+      agreed to the terms stated above, with the intention of fostering a genuine and understanding
+      relationship.
+    </p>
+
+    <p><br>Signed this <u>29th</u> day of <u>October</u>, 2025</p>
+
+    <div class="signatureSection">
+      <div>
+        <p>____________________________<br>Dane Morrey</p>
+      </div>
+    </div>
+    <hr />
+
+    <div id="signArea">
+      <h3>Lady’s Signature</h3>
+      <canvas id="ladyCanvas" width="320" height="150"></canvas>
+      <button id="clearBtn">Clear Signature</button>
+      <button id="savePdfBtn">Save as PDF</button>
+    </div>
+
+    <div id="pdfNotice" class="hidden">
+      <h3>✅ Agreement Saved</h3>
+      <p>Your signed Agreement PDF (with your signature) has been downloaded. This page is now locked.</p>
+    </div>
+  </div>
+
+  <!-- Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pdf-lib/dist/pdf-lib.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
